@@ -21,7 +21,7 @@ const Hero = ({ movies }: { movies: IMovie[] }) => (
           key={movie.id}
           style={{
             backgroundImage: `
-              linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url('https://caps1cdn.adultempire.com/o/1920/1080/${movie.backdrop_path}'`,
+              linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url('https://imgs1cdn.adultempire.com/products/0/${movie.backdrop_path}'`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
